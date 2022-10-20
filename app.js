@@ -1,7 +1,4 @@
 import { ethers } from "./ethers-5.6.esm.min.js";
-// what if I had multiple constants files AKA multiple contracts? So first fund the the "business contract" (confirm with js,),
-// then switch to another JS process hitting mint on another contract
-// just automatically fire off minting once contractA has recieved its money
 
 import { abi, contractAddress } from "./constants.js";
 
